@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+
+{{ if .IsHome}}
+    {{.Content}}
+{{ end }}
+
+{{ partial "footer.html" . }}

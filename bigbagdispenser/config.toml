@@ -1,0 +1,34 @@
+baseURL = "http://bigbagdispenser.com/"
+languageCode = "en-us"
+title = "Raimo Big-Bag Dispenser"
+
+[menu]
+
+    [[menu.main]]
+        name = "Home"
+        url = "/home/"
+        weight = 1
+    [[menu.main]]
+            name = "The Dispenser"
+            url = "/about/"
+            weight = 2
+    [[menu.main]]
+                name = "Benefits"
+                url = "/benefits/"
+                weight = 3
+    [[menu.main]]
+            name = "How to Use"
+            url = "/howto/"
+            weight = 4
+    [[menu.main]]
+            name = "Safety"
+            url = "/safety/"
+            weight = 5
+    [[menu.main]]
+            name = "FAQ"
+            url = "/faq/"
+            weight = 6
+    [[menu.main]]
+            name = "Buy"
+            url = "/buy/"
+            weight = 7
